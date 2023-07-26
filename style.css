@@ -1,0 +1,186 @@
+body{
+		background-color: antiquewhite;
+			
+		}
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		nav{
+			font-family: 'ubuntu', sans-serif;
+		}
+		nav ul{
+			align-items: center;
+			display: flex;
+			list-style-type: none;
+			background-color: black;
+			height: 65px;
+			color: white;
+			align-items: center;
+			text-shadow: 2px 2px 8px #FF0000;
+/*			text-shadow: 0 0 3px #FF0000;*/
+		}
+		#sha{
+			font-size: 15px;
+
+		}
+		nav ul li{
+			padding: 0 12px;
+		}
+		.container{
+			min-height: 72vh;
+			background-color: black;
+			color: white;
+			font-family: verdana;
+			display: flex;
+			margin: 8px auto;
+			border-radius: 20px;
+			padding: 18px;
+			width: 90%;
+			background-image: url(16.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+		.brand img{
+			height: 44px;
+			padding: 1.5px 8px;
+			border-radius: 50px;
+			background-color: greenyellow;	
+		}
+		#appname{
+			/*font-family: Arial, Helvetica, sans-serif;;
+			text-shadow: 2px 2px darkred;
+
+			color: seagreen;*/
+
+			font-family: 'Rocher';
+
+  text-align: center;
+  font-size: 25px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /*base-palette: 9;
+  font-palette: Purples;*/
+  text-shadow: 2px 2px darkred;
+  color: dodgerblue;
+  
+		}
+
+		
+		.brand{
+			display: flex;
+			align-items:center ;
+			font-weight: bolder;
+			font-size: 1.3rem;
+		}
+		.bottom{
+			position: sticky;
+			height: 75px;
+			background-color: black ;
+			color: white;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+		}
+		.icons{
+			margin-bottom: 5px;
+		}
+		#myprogressbar{
+			margin-top: 10px;
+			width: 80vw;
+			cursor: pointer;
+			accent-color: dodgerblue;
+		}
+		.icons i{
+			cursor: pointer;
+			padding: 10px;
+		}
+		.songItem{
+			height: 30px;
+			display: flex;
+			width: 70%;
+			background-color: #ABD4FF;
+			color: black;
+			/*margin-top: 12px;
+			margin-left: 520px; */                                                            
+			margin: 12px 0;
+		 	justify-content: space-between;
+    		align-items: center;
+			border-radius: 20px;
+		}
+		  .songItem img{
+		  	width: 40px;
+		  	margin: 0px 23px;
+		  	border-radius: 22px;
+		  }
+		  .timestamp{
+		  	margin: 0px 23px;
+		  	cursor: pointer;
+
+		  }
+		  .songItemContainer{
+		  	margin-top: 34px;
+		  }
+		  .songInfo{
+		  	position: absolute;
+		  	left: 2vw;
+		  }
+		 /* #gif2{
+		  	position: absolute;
+		  	right: 2vw;
+		  }
+		  */
+		  
+		  /*.masterSongName{
+
+		  	font-size: 25px;
+		  	left: 1p*/x;
+		  }
+		  .songInfo img{
+		  	opacity: 0;
+		  	transition: opacity 0.4s ease-in;
+		  }
+		 /* #masterSongName{
+		  	letter-spacing: 0.0015em;
+	
+	position:absolute;
+	left:200px; 
+	top:30px; 
+	font-size: 20px;
+	display: grid;
+	font-family: "Henny Penny", cursive;
+	color: darkred;
+	text-shadow: 0 1px #8da1ff, -1px 0 #c0cbff, -1px 2px #8da1ff, -2px 1px #c0cbff,
+		-2px 3px #8da1ff, -3px 2px #c0cbff, -3px 4px #8da1ff, -4px 3px #c0cbff,
+		-4px 5px #8da1ff, -5px 4px #c0cbff, -5px 6px #8da1ff, -6px 5px #c0cbff,
+		-6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
+	
+		  }
+*/
+
+		  #maa{
+		  	font-family: 'Calligraffitti', cursive;
+  			font-weight: 700;
+  			font-size: 2rem;
+ 			 position: absolute;
+/*  text-shadow: -15px 5px 5px darkred;*/
+  			top: 1%;
+ 			 left: 38%;
+/*  transform: translate(-50%,-20%);*/
+  			letter-spacing: 0.02em;
+ 			 text-align: center;
+ 			 color: darkorange;
+ 			 text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+ 			 color: darkred;
+/* 			 color: #F9f1cc;*/
+/*  text-shadow: 5px 5px 0px #FFB650, */
+/*    10px 10px 0px #FFD662, */
+/*    15px 15px 0px  #FF80BF, */
+   
+		  }
